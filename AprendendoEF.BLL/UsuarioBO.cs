@@ -19,7 +19,7 @@ namespace AprendendoEF.BLL
 
 
                 if ((string.IsNullOrEmpty(entidade.Login) || string.IsNullOrEmpty(entidade.Senha)))
-                    throw new ArgumentNullException("Usuario ou senha em brancos");
+                    throw new ArgumentNullException("Preencha todos os campos em negritos");
 
 
                 var usuario = new UsuarioBO();
