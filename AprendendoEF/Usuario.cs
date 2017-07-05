@@ -12,7 +12,7 @@ namespace AprendendoEF
     {
         public string Login { get; set; }
 
-        public string Senha { get; set; }
+        public string Senhas { get; set; }
 
         public Usuario()
         {
